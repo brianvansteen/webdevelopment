@@ -54,14 +54,15 @@ ul {
 
 li {
     float: left;
-    font-size: 24px;
+    font-size: calc(10px + 1.6vw);
     font-weight: bold;
+    background-color: teal;
 }
 
 li>a {
     display: block;
-    color: black;
-    font-size: calc(20px + 1.2vw);
+    color: whitesmoke;
+    font-size: calc(10px + 1.2vw);
     text-align: center;
     padding: 4px 50px;
     text-decoration: none;
@@ -76,15 +77,15 @@ li a:hover {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: navy;
 }
 
 .footer>ul>li {
     float: left;
     padding: 4px 6px;
+    background-color: navy;
 }
 
-.footerButton {
+.footerLink {
     display: inline-block;
     color: black;
     font-size: calc(8px + 1.0vw);
@@ -104,61 +105,70 @@ li a:hover {
     font-size: 20px;
 }
 
-@media and (max-width: 1000px) {
+.information>ul {
+    display: inline;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px 10px;
+    overflow: hidden;
+    background-color: navy;
+}
+
+@media screen and (max-width: 1000px) {
     li>a {
         padding: 4px 50px;
     }
 }
 
-@media and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     li>a {
         padding: 4px 46px;
     }
 }
 
-@media and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     li>a {
         padding: 4px 42px;
     }
 }
 
-@media and (max-width: 700px) {
+@media screen and (max-width: 700px) {
     li>a {
         padding: 4px 38px;
     }
 }
 
-@media and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     li>a {
         padding: 3.6px 34px;
     }
 }
 
-@media and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     li>a {
         padding: 3.6px 30px;
     }
 }
 
-@media and (max-width: 400px) {
+@media screen and (max-width: 400px) {
     li>a {
         padding: 3.2px 26px;
     }
 }
 
-@media and (max-width: 300px) {
+@media screen and (max-width: 300px) {
     li>a {
         padding: 3.2px 22px;
     }
 }
 
-@media and (max-width: 200px) {
+@media screen and (max-width: 200px) {
     li>a {
         padding: 2.8px 18px;
     }
 }
 
-@media and (max-width: 100px) {
+@media screen and (max-width: 100px) {
     li>a {
         padding: 2.8px 14px;
     }
