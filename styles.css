@@ -1,0 +1,203 @@
+.titleImage {
+    position: relative;
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 'header header';
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+.titleCenter {
+    position: absolute;
+    font-family: "modena", "Lucida Handwriting", cursive;
+    text-align: center;
+    font-size: 7vw;
+    color: rgba(145, 7, 7);
+    top: 40px;
+    right: 100px;
+}
+
+.navGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.navGrid>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 6px;
+    font-size: calc(10px + 1.6vw);
+    font-weight: bold;
+}
+
+
+.grid1-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid1-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.navGrid>div>button {
+    font-size: 1.6vw;
+    font-weight: bold;
+}
+
+.attractionsImage {
+    position: relative;
+    text-align: left;
+    opacity: 0.8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    font-size: calc(10px + 1.6vw);
+    font-weight: bold;
+    background-color: teal;
+}
+
+li>a {
+    display: block;
+    color: whitesmoke;
+    font-size: calc(10px + 1.2vw);
+    text-align: center;
+    padding: 4px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: crimson;
+}
+
+.footer>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer>ul>li {
+    float: left;
+    padding: 4px 6px;
+    background-color: navy;
+}
+
+.footerLink {
+    display: inline-block;
+    color: black;
+    font-size: calc(8px + 1.0vw);
+    text-align: center;
+    padding: 2px 40px;
+    text-decoration: none;
+    border-width: 0px;
+}
+
+#contacts {
+    display: inline;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#services {
+    font-size: 20px;
+}
+
+.information>ul {
+    display: inline;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px 10px;
+    overflow: hidden;
+    background-color: navy;
+}
+
+@media screen and (max-width: 1000px) {
+    li>a {
+        padding: 4px 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    li>a {
+        padding: 4px 46px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    li>a {
+        padding: 4px 42px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    li>a {
+        padding: 4px 38px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    li>a {
+        padding: 3.6px 34px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    li>a {
+        padding: 3.6px 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    li>a {
+        padding: 3.2px 26px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    li>a {
+        padding: 3.2px 22px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    li>a {
+        padding: 2.8px 18px;
+    }
+}
+
+@media screen and (max-width: 100px) {
+    li>a {
+        padding: 2.8px 14px;
+    }
+}
